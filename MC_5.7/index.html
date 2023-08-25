@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Практика C5.7</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<label for="page">номер страницы</label>
-<input class="page" type="text" id="page">
-<label for="limit">лимит</label>
-<input class="limit" type="text" id="limit">
-<button>запрос</button>
-<div class="result"></div>
+<div class="element-center">
+  <div class="elements">
+    <label for="input1">Номер страницы: </label>
+    <input id="input1" type="text" placeholder="Введите № стр. от 1 до 10">
+
+    <label for="input2">Лимит: </label>
+    <input id="input2" type="text" placeholder="Введите кол-во от 1 до 10">
+
+    <div class="btn-output"> <button class="btn">Вывод изображения</button></div>
+  </div>
+  <div class="result">Здесь будет результат запроса</div>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>
